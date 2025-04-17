@@ -1,0 +1,16 @@
+Versão 1.3.0
+
+Alterações no PHP (legado)
+
+* Renomeando a opção de funcionário para operador
+* Correção relatório de telemetria e excel na busca por equipamentos que mudaram de dispositivos
+* Correção no relatório de Desempenho da frota ao pesquisar por grupos de equipamentos
+* Correção no relatório de Desempenho da frota ao pesquisar por turno
+* Correção no nome do equipamento durante a exportação do relatório de horímetro
+* Integração ineficiência entre turnos no Desempenho da Frota
+* Integração tempo de carregamento + eventos no Desempenho da Frota
+
+Alterações na API híbrida
+
+* Correção no cálculo de litros abastecido (hinove)
+* Correção no horário corrente do CDD
