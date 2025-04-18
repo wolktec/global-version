@@ -1,0 +1,7 @@
+Title: fix: [Hinove] - Relatório de Horímetro equipamentos duplicados (agt-metrics)
+
+[Problema](https://app.asana.com/1/1207270466405835/project/1209645599538636/task/1209987812540494?focus=true)
+O problema acontecia por estar considerando alocações que já foram fechadas para o equipamento (isso só acontece somente para alocações feitas manualmente)
+
+Solução
+Foi adicionado um novo filtro na busca por alocação do equipamento onde não considera mais alocações que já foram encerradas.
